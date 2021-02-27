@@ -49,3 +49,6 @@ ul li a {
   letter-spacing: -0.01em; }
   ul li a:hover {
     color: #fff; }
+
+header {
+  width: inherit; }
