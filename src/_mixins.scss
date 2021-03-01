@@ -2,11 +2,12 @@
     clear:both;
 }
 
-@mixin text($size, $color, $weight, $l-height:null) {
+@mixin text($size, $color, $weight, $l-height:null, $float:null) {
     font-size: $size;
     color: $color;
     font-weight: $weight;
     line-height: $l-height;
+    float: $float;
 }
 
 @mixin footerText($width, $height, $bg, $p-top:null) {
