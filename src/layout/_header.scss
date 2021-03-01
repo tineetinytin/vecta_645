@@ -1,3 +1,6 @@
+
+
+
 header {
     width: inherit;
     text-align: center;
@@ -10,25 +13,16 @@ header {
     }
 
     h1{
-        color: $darkOrange;
-        font-size: 4em;
-        line-height: 0; // line height - 0
-        font-weight: 100;
+        @include text(4em, $darkOrange, 100, 0)
     }
 
     h2 {
-        color: $white;
-        font-weight: 900;
-        font-size: 2.5em;
-        line-height: 0; //line height - 0
+        @include text(2.5em, $white, 900, 0)
         margin-bottom: 70px;
     }
 
     h3 {
-        font-weight: 400;
-        color: $lightGray;
-        font-size: 2em;
-        line-height: 0; //line height - 0
+        @include text(2em, $lightGray, 400, 0)
         margin-bottom: 50px;
     }
 }

@@ -1,5 +1,10 @@
 @mixin clearfix {
-    &:after {
-        clear: both;
-    }
+    clear:both;
+}
+
+@mixin text($size, $color, $weight, $l-height) {
+    font-size: $size;
+    color: $color;
+    font-weight: $weight;
+    line-height: $l-height;
 }
