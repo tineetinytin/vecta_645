@@ -2,7 +2,7 @@ header {
     width: inherit;
     text-align: center;
     padding-top: 40px;
-    clear: both; //clear - clearfix? mixin?
+    @include clearfix;
     
     img {
         max-width: 100%;
@@ -13,6 +13,7 @@ header {
         color: $darkOrange;
         font-size: 4em;
         line-height: 0; // line height - 0
+        font-weight: 100;
     }
 
     h2 {
@@ -24,6 +25,9 @@ header {
     }
 
     h3 {
+        font-weight: 400;
+        color: $lightGray;
+        font-size: 2em;
         line-height: 0; //line height - 0
         margin-bottom: 50px;
     }

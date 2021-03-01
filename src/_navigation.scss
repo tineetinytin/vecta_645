@@ -1,11 +1,12 @@
 figure {
     width: 400px;
     height: 190px;
-    background: url(../images/logo.png) no-repeat 0 50px;
+    background: url('#{$path-img}/logo.png') no-repeat 0 50px;
     float: left;
     display: block;
     margin: 0;
     }
+    
 nav {
     width: 540px;
     height: 190px;
