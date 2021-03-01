@@ -8,3 +8,10 @@
     font-weight: $weight;
     line-height: $l-height;
 }
+
+@mixin footerText($width, $height, $bg, $p-top) {
+    width: $width;
+    height: $height;
+    background: $bg;
+    padding-top: $p-top;
+}

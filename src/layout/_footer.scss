@@ -1,18 +1,12 @@
 .greybar {
-    width: 100%;
-    height: 90px;
-    background: $offWhite;
+    @include footerText(100%, 90px, $offWhite, 30px);
     @include clearfix;
-    padding-top: 30px;
 }
 
 footer {
-    width: 100%;
-    height: 120px;
-    background: $darkGray;
+    @include footerText(100%, 120px, $darkGray, 50px);
     text-align: center;
     color: $white;
-    padding-top: 50px;
 }
 
 .social-media {
