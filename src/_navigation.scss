@@ -1,7 +1,5 @@
 figure {
-    width: 400px;
-    height: 190px;
-    background: url('#{$path-img}/logo.png') no-repeat 0 50px;
+    @include footerText(400px, 190px, url('#{$path-img}/logo.png') no-repeat 0 50px);
     float: left;
     display: block;
     margin: 0;
