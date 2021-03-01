@@ -6,10 +6,8 @@ figure {
     }
     
 nav {
-    width: 540px;
-    height: 190px;
+    @include footerText(540px, 190px, right);
     float: left;
-    text-align: right;
     
 
     ul {
@@ -32,4 +30,4 @@ nav {
             color: $white;
         }
     }
-}
+    }

@@ -7,12 +7,14 @@
     color: $color;
     font-weight: $weight;
     line-height: $l-height;
-    float: $float;
+    
 }
 
-@mixin footerText($width, $height, $bg, $p-top:null) {
+@mixin footerText($width, $height, $bg:null, $p-top:null, $t-align:null) {
     width: $width;
     height: $height;
     background: $bg;
     padding-top: $p-top;
+    text-align: $t-align;
+    
 }

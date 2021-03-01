@@ -4,8 +4,7 @@
 }
 
 footer {
-    @include footerText(100%, 120px, $darkGray, 50px);
-    text-align: center;
+    @include footerText(100%, 120px, $darkGray, 50px, center);
     color: $white;
 }
 

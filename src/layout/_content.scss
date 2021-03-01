@@ -2,8 +2,7 @@
 
 
 #headline {
-    @include footerText(100%, 130px, $lightOrange);
-    text-align: center;
+    @include footerText(100%, 130px, $lightOrange, center);
     margin: 0 auto;
 
     h1 {
