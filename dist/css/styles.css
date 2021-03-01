@@ -102,3 +102,7 @@ header {
   #content #testimonials {
     width: 460px;
     float: right; }
+
+.greybar {
+  width: 100%;
+  height: 90px; }
