@@ -16,5 +16,22 @@
     background: $bg;
     padding-top: $p-top;
     text-align: $t-align;
-    
 }
+
+@mixin headerText($size, $color, $weight, $l-height: 0) {
+    font-size: $size;
+    color: $color;
+    font-weight: $weight;
+    line-height: $l-height;
+}
+
+@mixin navText($width, $height, $bg:null, $p-top:null, $t-align:null, $float: left) {
+    width: $width;
+    height: $height;
+    background: $bg;
+    padding-top: $p-top;
+    text-align: $t-align;
+    float: $float;
+
+}
+

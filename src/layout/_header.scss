@@ -13,16 +13,16 @@ header {
     }
 
     h1{
-        @include text(4em, $darkOrange, 100, 0);
+        @include headerText(4em, $darkOrange, 100);
     }
 
     h2 {
-        @include text(2.5em, $white, 900, 0);
+        @include headerText(2.5em, $white, 900);
         margin-bottom: 70px;
     }
 
     h3 {
-        @include text(2em, $lightGray, 400, 0);
+        @include headerText(2em, $lightGray, 400);
         margin-bottom: 50px;
     }
 }
