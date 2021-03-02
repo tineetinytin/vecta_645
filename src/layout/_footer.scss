@@ -1,10 +1,13 @@
 .greybar {
-    @include layoutText(100%, 90px, $offWhite, 30px);
+    @include footerText(90px, $offWhite);
+    padding-top: 30px;
     @include clearfix;
 }
 
 footer {
-    @include layoutText(100%, 120px, $darkGray, 50px, center);
+    @include footerText(120px, $darkGray);
+    padding-top: 50px;
+    text-align: center;
     color: $white;
 }
 

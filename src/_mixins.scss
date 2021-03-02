@@ -10,12 +10,10 @@
     
 }
 
-@mixin layoutText($width: 100%, $height:null, $bg:null, $p-top:null, $t-align:null) {
-    width: $width;
+@mixin footerText($height:null, $bg:null, $width: 100%) {
     height: $height;
     background: $bg;
-    padding-top: $p-top;
-    text-align: $t-align;
+    width: $width;
 }
 
 @mixin headerText($size, $color, $weight, $l-height: 0) {
