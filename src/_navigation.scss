@@ -1,11 +1,11 @@
 figure {
-    @include footerText(400px, 190px, url('#{$path-img}/logo.png') no-repeat 0 50px);
+    @include navText(400px, 190px, url('#{$path-img}/logo.png') no-repeat 0 50px);
     display: block;
     margin: 0;
     }
     
 nav {
-    @include footerText(540px, 190px, right, left);
+    @include navText(540px, 190px, right);
     
 
     ul {
