@@ -33,6 +33,13 @@
 
 }
 
+//2 COLUMN MIXIN
+
+@mixin twoColumn {
+    width: (920px / 2);
+
+}
+
 //MEDIA QUERIES
 
 @mixin break($length) {

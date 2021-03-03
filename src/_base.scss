@@ -17,7 +17,7 @@ main {
         width: 460px;
     }
     @include break(459px) {
-        width: 460px;
+        width: 300px;
     }
     
 }

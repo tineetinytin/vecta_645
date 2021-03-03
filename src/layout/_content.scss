@@ -35,7 +35,7 @@
     }
 
     #products {
-        width: 460px;
+        @include twoColumn;
         float: left;
         @include break(959px) {
             @include prodTestMedia;
@@ -63,7 +63,7 @@
     }
 
     #testimonials {
-        width: 460px;
+        @include twoColumn;
         float: right;
         @include break(959px) {
             @include prodTestMedia;

@@ -78,7 +78,7 @@ main {
       width: 460px; } }
   @media (max-width: 459px) {
     main {
-      width: 460px; } }
+      width: 300px; } }
 
 h1, h2, h3, h4, h5, p {
   font-family: Roboto, sans-serif, sans-serif; }
