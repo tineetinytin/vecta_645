@@ -16,6 +16,9 @@ main {
     @include break(767px) {
         width: 460px;
     }
+    @include break(459px) {
+        width: 460px;
+    }
     
 }
 h1, h2, h3, h4, h5, p {

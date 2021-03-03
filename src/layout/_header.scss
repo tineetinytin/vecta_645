@@ -13,6 +13,9 @@ header {
         @include break(767px) {
             margin-bottom: 100px;
         }
+        @include break(459px) {
+            margin-bottom: 80px;
+        }
     }
 
     h1{
@@ -22,6 +25,12 @@ header {
         }
         @include break(767px) {
             font-size: 2em;
+        }
+        @include break(459px) {
+            &:first-child {
+                font-size: 1.4em;
+                margin-bottom: 20px;
+            }
         }
     }
 
@@ -34,6 +43,9 @@ header {
         @include break(767px) {
             font-size: 1em;
         }
+        @include break(459px) {
+            font-size: 1.4em;
+        }
     }
 
     h3 {
@@ -41,6 +53,10 @@ header {
         margin-bottom: 50px;
         @include break(767px) {
             font-size: 1.5em;
+        }
+        @include break(459px) {
+            color: $white;
+            font-size: 1em;
         }
     }
 }

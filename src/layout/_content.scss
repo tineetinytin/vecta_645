@@ -13,6 +13,10 @@
             font-size: 2em;
             padding-top: 50px;
         }
+        @include break(459px) {
+            font-size: 1.5em;
+            padding-top: 30px;
+        }
     }
 }
 
@@ -25,6 +29,9 @@
     
     h3 {
         @include text(2em, $lightGray, 400);
+        @include break(459px) {
+            font-size: 1.6em;
+        }
     }
 
     #products {
