@@ -189,6 +189,9 @@ header {
     #content #products img {
       float: left;
       margin-right: 20px; }
+      @media (max-width: 459px) {
+        #content #products img {
+          display: none; } }
     #content #products article {
       margin-bottom: 40px; }
     #content #products h4 {

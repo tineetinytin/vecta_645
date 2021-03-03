@@ -50,6 +50,9 @@
         img {
             float: left;
             margin-right: 20px;
+            @include break(459px) {
+                display: none;
+            }
         }
 
         article {
