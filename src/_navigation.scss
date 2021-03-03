@@ -2,21 +2,40 @@ figure {
     @include navText(400px, 190px, url('#{$path-img}/logo.png') no-repeat 0 50px);
     display: block;
     margin: 0;
+    @include break(959px) {
+        width: inherit;
+        height: 140px;
+        float: none;
+        background-position: center;
+    }
     }
     
 nav {
     @include navText(540px, 190px, right);
-    
+    @include break(959px) {
+        width: inherit;
+        height: 50px;
+        float: none;
+        text-align: center;
+    }
+    }
 
     ul {
         list-style-type: none;
         margin-top: 95px;
+        @include break(959px) {
+            margin-top: 0;
+        }
     }
 
     ul li {
         display: inline;
         font-size: .8em;
         margin-right: 10px;
+        @include break(959px) {
+            font-size: 1em;
+            margin: 0 10px;
+        }
     }
 
     ul li a {
@@ -28,4 +47,4 @@ nav {
             color: $white;
         }
     }
-    }
+    

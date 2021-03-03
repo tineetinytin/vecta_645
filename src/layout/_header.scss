@@ -14,11 +14,17 @@ header {
 
     h1{
         @include headerText(4em, $darkOrange, 100);
+        @include break(959px) {
+            font-size: 3em;
+        }
     }
 
     h2 {
         @include headerText(2.5em, $white, 900);
         margin-bottom: 70px;
+        @include break(959px) {
+            font-size: 1.5em;
+        }
     }
 
     h3 {
