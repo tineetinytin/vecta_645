@@ -4,12 +4,12 @@
     @include clearfix;
         @include break(459px) {
             width: 460px;
-
+        }
         @include break(459px) {
             @include greybarImgMedia;
         }
     }
-}
+
 
 footer {
     @include footerText(120px, $darkGray);
@@ -25,7 +25,7 @@ footer {
             @include footerMedia;
         }
     }
-
+}
 
 
 .social-media {
@@ -58,5 +58,4 @@ footer {
         height: 36px;
         text-indent: -9999px;
     }
-
 }
