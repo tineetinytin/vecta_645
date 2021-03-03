@@ -40,6 +40,10 @@ ul li {
     ul li {
       font-size: 1em;
       margin: 0 10px; } }
+  @media (max-width: 767px) {
+    ul li {
+      font-size: 0.8em;
+      margin: 0 5px; } }
 
 ul li a {
   color: #e65c43;
@@ -62,6 +66,9 @@ main {
   @media (max-width: 959px) {
     main {
       width: 768px; } }
+  @media (max-width: 767px) {
+    main {
+      width: 460px; } }
 
 h1, h2, h3, h4, h5, p {
   font-family: Roboto, sans-serif, sans-serif; }
@@ -74,6 +81,9 @@ header {
   header img {
     max-width: 100%;
     height: auto; }
+    @media (max-width: 767px) {
+      header img {
+        margin-bottom: 100px; } }
   header h1 {
     font-size: 4em;
     color: #e65c43;
@@ -82,6 +92,9 @@ header {
     @media (max-width: 959px) {
       header h1 {
         font-size: 3em; } }
+    @media (max-width: 767px) {
+      header h1 {
+        font-size: 2em; } }
   header h2 {
     font-size: 2.5em;
     color: #fff;
@@ -91,12 +104,18 @@ header {
     @media (max-width: 959px) {
       header h2 {
         font-size: 1.5em; } }
+    @media (max-width: 767px) {
+      header h2 {
+        font-size: 1em; } }
   header h3 {
     font-size: 2em;
     color: #666;
     font-weight: 400;
     line-height: 0;
     margin-bottom: 50px; }
+    @media (max-width: 767px) {
+      header h3 {
+        font-size: 1.5em; } }
 
 #headline {
   height: 130px;
@@ -109,6 +128,10 @@ header {
     color: #fff;
     font-weight: 100;
     padding-top: 50px; }
+    @media (max-width: 767px) {
+      #headline h1 {
+        font-size: 2em;
+        padding-top: 50px; } }
 
 #content {
   width: 940px;
@@ -127,6 +150,11 @@ header {
       #content #products {
         width: 46%;
         margin: 0 2%; } }
+    @media (max-width: 767px) {
+      #content #products {
+        width: 96%;
+        margin: 0 2%;
+        float: none; } }
     #content #products img {
       float: left;
       margin-right: 20px; }
@@ -141,6 +169,11 @@ header {
       #content #testimonials {
         width: 46%;
         margin: 0 2%; } }
+    @media (max-width: 767px) {
+      #content #testimonials {
+        width: 96%;
+        margin: 0 2%;
+        float: none; } }
 
 .greybar {
   height: 90px;

@@ -10,12 +10,18 @@ header {
     img {
         max-width: 100%;
         height: auto;
+        @include break(767px) {
+            margin-bottom: 100px;
+        }
     }
 
     h1{
         @include headerText(4em, $darkOrange, 100);
         @include break(959px) {
             font-size: 3em;
+        }
+        @include break(767px) {
+            font-size: 2em;
         }
     }
 
@@ -25,10 +31,16 @@ header {
         @include break(959px) {
             font-size: 1.5em;
         }
+        @include break(767px) {
+            font-size: 1em;
+        }
     }
 
     h3 {
         @include headerText(2em, $lightGray, 400);
         margin-bottom: 50px;
+        @include break(767px) {
+            font-size: 1.5em;
+        }
     }
 }

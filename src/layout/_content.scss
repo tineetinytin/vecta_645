@@ -9,6 +9,10 @@
     h1 {
         @include text(2.5em, $white, 100);
         padding-top: 50px;
+        @include break(767px) {
+            font-size: 2em;
+            padding-top: 50px;
+        }
     }
 }
 
@@ -29,6 +33,11 @@
         @include break(959px) {
             width: 46%;
             margin: 0 2%;
+        }
+        @include break(767px) {
+            width: 96%;
+            margin: 0 2%;
+            float: none;
         }
 
         img {
@@ -52,6 +61,11 @@
         @include break(959px) {
             width: 46%;
             margin: 0 2%;
+        }
+        @include break(767px) {
+            width: 96%;
+            margin: 0 2%;
+            float: none;
         }
     }
 }
