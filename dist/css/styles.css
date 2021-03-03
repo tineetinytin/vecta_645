@@ -233,11 +233,7 @@ footer {
     footer {
       text-align: center; } }
   @media (max-width: 459px) {
-    footer p {
-      float: none;
-      margin: 0; } }
-  @media (max-width: 459px) {
-    footer img {
+    footer p, footer img {
       float: none;
       margin: 0; } }
 

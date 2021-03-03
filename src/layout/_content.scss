@@ -38,20 +38,17 @@
         width: 460px;
         float: left;
         @include break(959px) {
-            width: 46%;
-            margin: 0 2%;
+            @include prodTestMedia;
         }
         @include break(767px) {
-            width: 96%;
-            margin: 0 2%;
-            float: none;
+            @include prodTest2Media;
         }
 
         img {
             float: left;
             margin-right: 20px;
             @include break(459px) {
-                display: none;
+                @include greybarImgMedia;
             }
         }
 
@@ -69,13 +66,10 @@
         width: 460px;
         float: right;
         @include break(959px) {
-            width: 46%;
-            margin: 0 2%;
+            @include prodTestMedia;
         }
         @include break(767px) {
-            width: 96%;
-            margin: 0 2%;
-            float: none;
+            @include prodTest2Media;
         }
     }
 }

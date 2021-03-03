@@ -41,5 +41,25 @@
     }
 }
 
+@mixin prodTestMedia {
+    width: 46%;
+    margin: 0 2%;
+}
+
+@mixin prodTest2Media {
+    width: 96%;
+    margin: 0 2%;
+    float: none;
+}
+
+@mixin greybarImgMedia {
+    display: none;
+}
+
+@mixin footerMedia {
+    float: none;
+    margin: 0;
+}
+
 
 
